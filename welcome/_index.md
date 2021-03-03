@@ -4,4 +4,4 @@ component: false
 order: 1
 ---
 
-Welcome to the CLI docs
+Welcome to the CLI docs!
