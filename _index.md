@@ -1,4 +1,4 @@
 ---
-title: Command Line Interface
+title: Yext CLI
 component: false
 ---
