@@ -92,4 +92,4 @@ The resulting help text tells us that `resources` is a **command group**, lists 
 
 Using the help flag is a great way to learn about the Yext CLI and view documentation in-line. You can also always come back to this Yext CLI reference page for more detailed documentation.
 
-If you run into an error while running a command in the Yext CLI, a good place to start is checking out the help text for that command. You might be missing a required option, and the help text will provide that information. If you're still stuck, we recommend posting in our (Community)[https://hitchhikers.yext.com/community/c/yext-cli/37]. 
+If you run into an error while running a command in the Yext CLI, a good place to start is checking out the help text for that command. You might be missing a required option, and the help text will provide that information. If you're still stuck, we recommend posting in our [Community](https://hitchhikers.yext.com/community/c/yext-cli/37). 
