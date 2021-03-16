@@ -26,7 +26,7 @@ How do these commands all fit together? If you think about this in the context o
 5. Run `yext resources diff [SOURCE-DIR]` (optionally) to review your changes
 6. Run `yext resources apply [SOURCE-DIR]` to update your account
 
-You can follow along in our [Getting Started with Updating CaC Resources via CLI guide](www.yext.com). 
+You can follow along in our [Getting Started with Updating CaC Resources via CLI guide](/guides/getting-started-cli-resources). 
 
 \
 \
