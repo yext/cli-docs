@@ -20,13 +20,10 @@ yext init -u sandbox
 ```
 {{< /protip-large >}}
 
-Unless you already have a credential set up, when prompted select **Create new credentials**, and enter a descriptive name for the account as the credential, e.g., "demo-account". 
+Unless you already have a credential set up, when prompted select **Create new credentials**. 
 
 ```cli
 ? Please select one of the following options Create new credentials
-? Enter credentials name.
-(Names start with a lower case letter and contain only lower case letters a-z, digits 0-9, and hyphens '-')
-> demo-account
 ```
 
 Next, you'll need to input your account ID. You can find your Yext Account ID by looking in Account Settings > Personal Settings in the Account Information table or by pulling the ID out of the URL of your account after the /s/.  
@@ -38,7 +35,7 @@ For example:
 > 12345
 ```
 
-Finish up by clicking the link to authenticate into your account. 
+This will take you to the browser. Finish up by authenticating into your account and returning to the terminal when done.
 
 **Congrats, Now you're ready to start using the CLI!**
 
