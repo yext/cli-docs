@@ -2,7 +2,7 @@
 title: Welcome to the Yext CLI (Beta)
 sidebarTitle: Yext CLI (Beta)
 component: false
-order: 1
+order: 4
 ---
 
 The Yext command line tool (Yext CLI) is the means for configuring and developing against your Yext account from your local machine. Using the Yext CLI you can:
