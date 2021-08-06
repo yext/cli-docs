@@ -47,7 +47,7 @@ If you run into problems installing or running the CLI, look through the followi
 
 If you are using a Windows machine, we recommend installing with MSI Installer. 
 
-1. Download the Yext CLI MSI installer for Windows: http://yext-cli-pub.s3.amazonaws.com/cli/windows/yext.msi
+1. Download the Yext CLI MSI installer for Windows: https://yext-cli-pub.s3.amazonaws.com/cli/windows/yext.msi
 
 2. Run the downloaded MSI installer and follow the on-screen instructions. By default, the Yext CLI installs to `C:\Windows\system32`
 
