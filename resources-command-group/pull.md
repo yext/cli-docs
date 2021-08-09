@@ -20,6 +20,7 @@ yext resources pull [DESTINATION-DIR] [flags]
 | `--name strings` | List of resource names. If this is included, only resources with the specified names are returned. Resources are specified with their full id including namespace. See examples below. |
 | `--namespace strings` | List of namespaces. If this is included, only resources in the listed namespaces are returned. See examples below. |
 | `--type strings` | List of resource types. If this is included, only resources of the listed types will be returned. A resource type is specified by the path after https://schema.yext.com/config/ in the $schema field of its Config as Code JSON schema definition. JSON schema definitions can be found [here](https://developer.yext.com/cac/conversion-action/). |
+| `--exclude strings` | List of resource types to exclude. If this is included, the resources of the listed types will be excluded. A resource type is specified by the path after https://schema.yext.com/config/ in the $schema field of its Config as Code JSON schema definition. JSON schema definitions can be found [here](https://developer.yext.com/cac/conversion-action/). |
 \
 \
 {{< /classic-table >}}
@@ -86,5 +87,17 @@ If you are trying to:
   * Pull all entity-type resources and all role resources to **myFolder**, run: 
     ```cli
     yext resources pull myFolder --type km/entity-type,platform/role
+    ```
+
+**Example usage of `--exclude` Flag**
+
+  * Pull all resources except km/entity to **myFolder**, run: 
+    ```cli
+    yext resources pull myFolder --exclude km/entity 
+    ```
+
+  * Pull all resources except entity-type and role resources to **myFolder**, run: 
+    ```cli
+    yext resources pull myFolder --exclude km/entity-type,platform/role
     ```
 
