@@ -21,6 +21,7 @@ yext resources pull [DESTINATION-DIR] [flags]
 | `--namespace strings` | List of namespaces. If this is included, only resources in the listed namespaces are returned. See examples below. |
 | `--type strings` | List of resource types. If this is included, only resources of the listed types will be returned. A resource type is specified by the path after https://schema.yext.com/config/ in the $schema field of its Config as Code JSON schema definition. JSON schema definitions can be found [here](https://developer.yext.com/cac/conversion-action/). |
 | `--exclude strings` | List of resource types to exclude. If this is included, the resources of the listed types will be excluded. A resource type is specified by the path after https://schema.yext.com/config/ in the $schema field of its Config as Code JSON schema definition. JSON schema definitions can be found [here](https://developer.yext.com/cac/conversion-action/). |
+| `--organize-by-resource-type` | Organize the pulled resources by resource type, as opposed to organize by namespace. See examples below. |
 \
 \
 {{< /classic-table >}}
@@ -101,3 +102,18 @@ If you are trying to:
     yext resources pull myFolder --exclude km/entity-type,platform/role
     ```
 
+
+\
+\
+
+\
+
+\
+
+
+**Example usage of `--organize-by-resource-type` Flag**
+
+  * Pull resources and organize by resource type, run:
+    ```cli
+    yext resources pull myFolder --organize-by-resource-type 
+    ```
