@@ -31,7 +31,7 @@ yext streams refresh status [<refresh-job-id>] [flags]
 | Flag     | Description   |
 | ------------- |:-------------:|
 | `-h`, `--help`    | Help for resources pull |
-| `-s`, `--stream` (string)   | The id of the stream. You can find this by running the `streams list` command. |
+| `-s`, `--stream string`   | The id of the stream. You can find this by running the `streams list` command. |
 \
 \
 {{< /classic-table >}}
