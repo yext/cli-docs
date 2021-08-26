@@ -15,10 +15,10 @@ yext streams refresh list [flags]
 {{< classic-table >}}
 | Flag     | Description   |
 | ------------- |:-------------:|
-| `-d`, `--destination` (string) | Filter to only streams for a specific destination. Allowed values: streamsapi, answers, pages, listings |
+| `-d`, `--destination string` | Filter to only streams for a specific destination. Allowed values: streamsapi, answers, pages, listings |
 | `-h`, `--help`    | Help for resources apply |
-| `-l`, `--limit` | Number of refresh jobs to display. (default 10) |
-| `-p`, `--pageToken` (string) | If a response to a previous request contained the nextPageToken field, pass that field's value as the pageToken parameter to retrieve the next page of data. |
+| `-l`, `--limit int` | Number of refresh jobs to display. (default 10) |
+| `-p`, `--pageToken string` | If a response to a previous request contained the nextPageToken field, pass that field's value as the pageToken parameter to retrieve the next page of data. |
 | `-s`, `--stream` | The ID of the specific stream for which you want refresh jobs listed.  |
 \
 \
