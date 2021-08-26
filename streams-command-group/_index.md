@@ -14,7 +14,7 @@ Let’s walk through how you might leverage the Streams CLI.
 Since Streams are derived from your downstream experiences, rather than defined by the user, you may not be aware of which Stream is actually powering your downstream experience. The first thing you might want to do is run:
 
 ```cli
-yext streams list-streams
+yext streams list
 ```
 
 This command will return **a table of the active Streams in your account**. Based on the information returned you should have a pretty good idea of which downstream experience a given Stream is powering. 
@@ -22,7 +22,7 @@ This command will return **a table of the active Streams in your account**. Base
 Now, say I recently made a configuration change within my downstream experience, for example, adding a field to a Streams Endpoint. I want to know whether the Streams endpoint has been updated according to my configuration change. I would run:
 
 ```cli
-yext streams refresh status {streamId}
+yext streams refresh status -s {streamId}
 ```
 
 This command will provide the status of the most recent refresh on the specified Stream. 
