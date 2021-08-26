@@ -8,7 +8,7 @@ This command will take you through a flow to select existing or create a new cre
 
 ## Usage
 ```cli
-yext init [flags]
+yext init [ACCOUNT-ID] [flags]
 ```
 
 ## Flags
