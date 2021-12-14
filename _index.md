@@ -2,7 +2,7 @@
 title: Welcome to the Yext CLI (Beta)
 sidebarTitle: Yext CLI (Beta)
 component: false
-order: 4
+order: 8
 ---
 {{< protip-large title="Contributions" icon="megaphone" color="#E6EDDD">}}
   Have an idea for improving our documentation? Make a contribution to our [Github repository](https://github.com/yext/cli-docs/) by submitting a pull request.
