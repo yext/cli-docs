@@ -5,7 +5,7 @@ component: false
 order: 8
 ---
 {{< protip-large title="Contributions" icon="megaphone" color="#E6EDDD">}}
-  Have an idea for improving our documentation? Make a contribution to our [Github repository](https://github.com/yext/cli-docs/) by submitting a pull request.
+Have an idea for improving our documentation? Make a contribution to our [Github repository](https://github.com/yext/cli-docs/) by submitting a pull request.
 {{< /protip-large >}}
 
 The Yext command line tool (Yext CLI) is the means for configuring and developing against your Yext account from your local machine. Using the Yext CLI you can:
