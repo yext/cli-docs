@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Yext CLI (Beta)
+title: CLI & Configuration Resources
 sidebarTitle: Yext CLI (Beta)
 component: false
 order: 8
