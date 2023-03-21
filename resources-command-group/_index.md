@@ -1,6 +1,6 @@
 ---
 title: Resources Command Group
-order: 5
+order: 4
 ---
 
 The **resources** command group will allow you to manage Configuration as Code (CaC) resources in your Yext accounts. Much of the configuration and setup of your Yext account is actually stored in JSON configuration files that can be modified programmatically through the CLI or Admin Console. This provides you, as developers, a high level of flexibility to manage your account's resources in whatever way makes the most sense with your existing applications. 

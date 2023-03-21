@@ -1,9 +1,13 @@
 ---
-title: diff
+title: Resources Commands
 order: 2
-
+apidoc: true
+sidebarLinks:
+- id: diff
+  title: 'diff'
 ---
 
+## diff
 
 Displays the differences between your local version of resources and your resources stored in Yext. This is powerful for operations where you want to review the changes before they are applied. 
 

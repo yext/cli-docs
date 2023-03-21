@@ -1,8 +1,13 @@
 ---
-title: pull
-order: 3
-
+title: Resources Commands
+order: 2
+apidoc: true
+sidebarLinks:
+- id: pull
+  title: 'pull'
 ---
+
+## pull
 
 Pulls/fetches configuration from Yext and stores them in code files at the specified destination directory. Files are pulled from the Yext account specified by the current credential.
 

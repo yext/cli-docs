@@ -1,13 +1,18 @@
 ---
-title: apply
+title: Resources Commands
 order: 1
+apidoc: true
+sidebarLinks:
+- id: apply
+  title: 'apply'
 apiProperties:
   - property: -d, --dry
     description: Validate and view the result of an apply operation without persisting changes
   - property: --namespace strings
     description: List of namespaces that should be affected. Any resources outside of the listed namespaces will not be applied.
-
 ---
+
+## apply
 
 Applies configuration stored in the source directory to the account that the current credential is pointing to. 
 

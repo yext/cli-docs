@@ -1,6 +1,4 @@
 ---
 title: Getting Started
-order: 3
+order: 2
 ---
-
-Now that you have installed the Yext CLI, it is time to start exploring! 

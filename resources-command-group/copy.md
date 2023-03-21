@@ -1,7 +1,10 @@
 ---
-title: copy
+title: Resources Commands
 order: 4
-
+apidoc: true
+sidebarLinks:
+- id: copy
+  title: 'copy'
 ---
 
 Applies configurations stored in the source account to the destination account.
