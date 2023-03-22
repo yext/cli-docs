@@ -1,4 +1,4 @@
 ---
 title: Installation
-order: 1
+order: 2
 ---

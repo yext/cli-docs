@@ -1,4 +1,4 @@
 ---
 title: Resources Command Group
-order: 4
+order: 5
 ---
