@@ -71,7 +71,10 @@ If you are using a Windows machine, we recommend installing with MSI Installer.
 ## Install on Linux
 
 If you are using Linux, The Yext CLI can be installed via wget.
-wget https://yext-cli-pub.s3.amazonaws.com/cli/linux/yext
+
+1. Download the file: `wget https://yext-cli-pub.s3.amazonaws.com/cli/linux/yext`.
+2. Put into path: `sudo mv yext /usr/local/bin`.
+3. Make it executable: `chmod +x /usr/local/bin/yext`.
 
 \
 \
